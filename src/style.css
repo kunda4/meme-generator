@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
@@ -56,7 +56,7 @@ main {
     color: white;
     border: none;
     cursor: pointer;
-} */
+}
 
 /* Change state styles */
 
@@ -100,7 +100,7 @@ body {
 
 /* Counter Practice Styles*/
 
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -159,4 +159,4 @@ body {
 .counter--minus {
     margin-right: -20px;
     z-index: 1;
-}
+} */

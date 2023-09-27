@@ -1,14 +1,14 @@
 import React from "react"
 
 export default function CounterPractice() {
- 
-    function Add(){
+
+     const [count, setCount] = React.useState(0)
+     function Add(){
         setCount(prevCount => prevCount+1)
     }
     function Substract(){
         setCount(prevCount=> prevCount-1)
     }
-     const [count, setCount] = React.useState(0)
     return (
         <div className="counter">
             <button className="counter--minus" onClick={Substract}>–</button>
