@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Meme from './components/Meme'
+import Flipping from './components/flippingState'
 function App() {
 
 
   return (
     <>
-    <Meme/>
+    <Flipping/>
     </>
   )
 }
