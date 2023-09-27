@@ -1,5 +1,5 @@
 import React from "react"
-
+import Count from "./count"
 export default function CounterPractice() {
 
      const [count, setCount] = React.useState(0)
@@ -12,9 +12,7 @@ export default function CounterPractice() {
     return (
         <div className="counter">
             <button className="counter--minus" onClick={Substract}>–</button>
-            <div className="counter--count">
-                <h1>{count }</h1>
-            </div>
+            <Count number={count}/>
             <button className="counter--plus" onClick={Add}>+</button>
         </div>
     )
