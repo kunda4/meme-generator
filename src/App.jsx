@@ -1,7 +1,9 @@
 
-import './App.css'
 
-import CounterPractice from './components/counterPractice'
+
+import CounterPractice from './components/counterPractice/counterPractice'
+
+
 function App() {
 
 
