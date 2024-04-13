@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types'
 export default function Count(props){
     return(
         <div className="counter--count">
@@ -7,3 +7,8 @@ export default function Count(props){
     )
 
 }
+
+Count.propTypes = {
+    number: PropTypes.string.isRequired
+}
+
