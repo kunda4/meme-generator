@@ -1,11 +1,6 @@
-
-
-
 import CounterPractice from './components/counterPractice/counterPractice'
 
-
 function App() {
-
 
   return (
     <>
@@ -14,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
