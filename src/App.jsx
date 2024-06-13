@@ -1,10 +1,12 @@
-import { FormSubmit } from './components/FormSubmit/formSubmit';
+import Header from './components/Meme/Header';
+import Meme from './components/Meme/Meme';
 
 function App() {
 
   return (
     <>
-    <FormSubmit/>
+    <Header/>
+    <Meme/>
     </>
   )
 }
