@@ -1,10 +1,10 @@
-import CounterPractice from './components/counterPractice/counterPractice'
+import { FormSubmit } from './components/FormSubmit/formSubmit';
 
 function App() {
 
   return (
     <>
-    <CounterPractice/>
+    <FormSubmit/>
     </>
   )
 }
